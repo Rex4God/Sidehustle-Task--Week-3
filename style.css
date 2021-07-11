@@ -1,0 +1,62 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: sans-serif;
+}
+body{
+    background: url("/images/counter.jpg");
+}
+.main_container{
+    background:url("/images/counter.jpg");
+    border: 1px solid #fff;
+    border-radius:3px;
+    height: 400px;
+    width: 300px;
+    margin: 5rem auto;
+    box-shadow: 2px 10px 10px;  
+    }
+
+h1{
+        display: flex;
+        justify-content: center;
+        margin: 2rem;
+        font-family: sans-serif;
+        color: #fff;
+        letter-spacing:5px;
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+    h2{
+text-align: center;
+ padding: 0rem 2rem;
+  margin: 0 auto;
+            font-size: 10rem;
+            color: green;
+
+    }
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+background: #0d2c54;
+border-radius: 5px;
+padding: 5px;
+color: #fff;
+font-family: sans-serif;
+margin: 7px auto;
+border: none;
+box-shadow: 2PX 6PX 10PX black;
+cursor: pointer;
+letter-spacing: 2px;
+}
+button:hover {
+     font-size: 12px;
+     color:#9fafc5 ;
+}
+
+
+
